@@ -2,14 +2,19 @@
   "name": "28constellations",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yvette2333.github.io/28constellations",
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "swiper": "^11.2.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
